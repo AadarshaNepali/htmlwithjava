@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoe website</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      form {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 1.5em;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px 15px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <li>Home</li>
+        <li>Contact us</li>
+        <li>Services</li>
+        <form action="/search" method="get">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">Go</button>
+        </form>
+      </nav>
+      <header>
+        <div class="shoe-container">
+          <div class="shoe1">bred</div>
+          <div class="shoe2">old skool</div>
+          <div class="shoe3">cortez</div>
+          <div class="shoe4">gazelle</div>
+          <div class="shoe5">converse chuck</div>
+          <div class="shoe6">israfil</div>
+        </div>
+      </header>
+      <footer>
+        <div class="footer-space">
+          © 2023 Aadarsha Nepali. Discovery, Inc. or its subsidiaries and
+          affiliates. All rights reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
